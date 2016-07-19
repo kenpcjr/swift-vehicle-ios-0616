@@ -18,6 +18,11 @@
 		4C910C711D320B2000649D72 /* VehicleSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C910C701D320B2000649D72 /* VehicleSpec.swift */; };
 		4C910C731D320B4B00649D72 /* CarSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C910C721D320B4B00649D72 /* CarSpec.swift */; };
 		4C910C751D320B9D00649D72 /* RaceCarSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C910C741D320B9D00649D72 /* RaceCarSpec.swift */; };
+		4F41341A1D3EAA8B0058448F /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4134191D3EAA8B0058448F /* Vehicle.swift */; };
+		4F41341C1D3EB05C0058448F /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F41341B1D3EB05C0058448F /* Car.swift */; };
+		4F41341E1D3EB2140058448F /* RaceCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F41341D1D3EB2140058448F /* RaceCar.swift */; };
+		4F4134201D3EB7680058448F /* plane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F41341F1D3EB7680058448F /* plane.swift */; };
+		4F4134221D3ED65C0058448F /* Jet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4134211D3ED65C0058448F /* Jet.swift */; };
 		A60E8285406F361E6B87AAF4 /* Pods_swift_vehicle_labTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6C27FE7DBA2C7AD4451420D /* Pods_swift_vehicle_labTests.framework */; };
 		BC561DB833C862E0E4CB8AE6 /* Pods_swift_vehicle_lab.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A30583879B94F1D9833CC2BC /* Pods_swift_vehicle_lab.framework */; };
 /* End PBXBuildFile section */
@@ -48,6 +53,11 @@
 		4C910C701D320B2000649D72 /* VehicleSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VehicleSpec.swift; sourceTree = "<group>"; };
 		4C910C721D320B4B00649D72 /* CarSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarSpec.swift; sourceTree = "<group>"; };
 		4C910C741D320B9D00649D72 /* RaceCarSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RaceCarSpec.swift; sourceTree = "<group>"; };
+		4F4134191D3EAA8B0058448F /* Vehicle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
+		4F41341B1D3EB05C0058448F /* Car.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		4F41341D1D3EB2140058448F /* RaceCar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RaceCar.swift; sourceTree = "<group>"; };
+		4F41341F1D3EB7680058448F /* plane.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = plane.swift; sourceTree = "<group>"; };
+		4F4134211D3ED65C0058448F /* Jet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Jet.swift; sourceTree = "<group>"; };
 		5CB7600D843C18B45BD7E045 /* Pods-swift-vehicle-lab.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-vehicle-lab.debug.xcconfig"; path = "Pods/Target Support Files/Pods-swift-vehicle-lab/Pods-swift-vehicle-lab.debug.xcconfig"; sourceTree = "<group>"; };
 		6B813A3306E879316D75A9CD /* Pods-swift-vehicle-lab.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-vehicle-lab.release.xcconfig"; path = "Pods/Target Support Files/Pods-swift-vehicle-lab/Pods-swift-vehicle-lab.release.xcconfig"; sourceTree = "<group>"; };
 		870DA6EEB0D184DDEB3C87DE /* Pods-swift-vehicle-labTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-vehicle-labTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-swift-vehicle-labTests/Pods-swift-vehicle-labTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -100,6 +110,11 @@
 			isa = PBXGroup;
 			children = (
 				1B5E8FE31D3039FD00054FD9 /* AppDelegate.swift */,
+				4F4134191D3EAA8B0058448F /* Vehicle.swift */,
+				4F41341B1D3EB05C0058448F /* Car.swift */,
+				4F41341D1D3EB2140058448F /* RaceCar.swift */,
+				4F41341F1D3EB7680058448F /* plane.swift */,
+				4F4134211D3ED65C0058448F /* Jet.swift */,
 				4C910C671D320A4600649D72 /* Resources */,
 			);
 			path = "swift-vehicle-lab";
@@ -351,8 +366,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F41341A1D3EAA8B0058448F /* Vehicle.swift in Sources */,
 				1B5E8FE61D3039FD00054FD9 /* ViewController.swift in Sources */,
+				4F4134201D3EB7680058448F /* plane.swift in Sources */,
+				4F41341E1D3EB2140058448F /* RaceCar.swift in Sources */,
+				4F41341C1D3EB05C0058448F /* Car.swift in Sources */,
 				1B5E8FE41D3039FD00054FD9 /* AppDelegate.swift in Sources */,
+				4F4134221D3ED65C0058448F /* Jet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
